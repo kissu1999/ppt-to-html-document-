@@ -5,7 +5,7 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 .header{
-    background:rgb(5, 5, 218);
+    background:rgb(90, 90, 148);
 }
 .navbar{
     padding-top: 10px !important;
@@ -114,7 +114,7 @@
     margin-bottom: 30px;
 }
 .service-box:hover, .active-service{
-    background-color: rgb(5, 5, 218);
+    background-color: rgb(90, 90, 148);
     border-radius: 5px;
     color: white;
     box-shadow: 0 15px 15px 2px rgb(97, 83, 83);
@@ -131,6 +131,7 @@
     width: 70%;
     cursor: pointer;
     margin-top: 50px;
+    margin-left: 50px;
 }
 .feature h2,.explore h2{
     margin-top: 50px;
@@ -149,7 +150,7 @@
     padding: 15px 10px;
     text-decoration: none !important;
     display: block;
-    background: rgb(5, 5, 218);
+    background: rgb(90, 90, 148);
     color: white;
     text-align: center;
     border-radius: 5px;
@@ -199,14 +200,14 @@
     padding: 0 50px;
 }
 .carousel-indicators li{
-    background-color: rgb(5, 5, 218) !important;
-    border: 2px solid rgb(5, 5, 218);
+    background-color: rgb(90, 90, 148) !important;
+    border: 2px solid rgb(90, 90, 148);
     border-radius: 50%;
 }
 
 @media only screen and (max-width:700px){
     .carousel-item{
-        height: 525px;
+        height: 560px;
     }
     .carousel-caption{
         margin: 0 40px 145px 40px;
@@ -217,7 +218,7 @@
 
 
 .footer{
-    background: rgb(5, 5, 218);
+    background: rgb(90, 90, 148);
     padding-top: 5px;
 }
 .footer h2{
@@ -255,5 +256,13 @@
     padding: 70px;
     display: block;
     color: white;
+}
 
+@media only screen and (max-width:991px){
+    .active-home, .nav-link:hover{
+        border: none;
+    }
+    .nav-item a{
+        mask-border: 10px !important;
+    }
 }
